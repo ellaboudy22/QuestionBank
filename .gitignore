@@ -1,0 +1,41 @@
+# Environment Variables
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Build files
+build/
+target/
+out/
+.gradle/
+.gradletasknamecache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Application data
+Data/
+
+# ONNX Models (large files)
+*.onnx
+
+# Sensitive configuration
+application-dev.properties
+application-local.properties
